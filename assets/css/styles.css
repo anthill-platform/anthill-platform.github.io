@@ -198,7 +198,7 @@ pre code {
   font-size: 60px;
   font-weight: 300;
   color: #ffffff;
-  margin-top: 0;
+  margin-top: 94px;
 }
 .promo .title .highlight {
   color: #eebf3f;
@@ -359,6 +359,10 @@ pre code {
   color: #ffffff;
   padding: 15px;
   margin: 0;
+}
+.dark-section a {
+  color: #ffffff;
+  font-weight: bold;
 }
 .dark-section .docs-inner {
   padding: 30px;
@@ -670,7 +674,6 @@ pre code {
   top: 56px;
   background-color: #000000;
   text-align: center;
-
 }
 
 .animation-bg {
