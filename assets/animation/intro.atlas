@@ -1,0 +1,48 @@
+
+intro.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg-intro
+  rotate: false
+  xy: 1, 697
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+bg-intro-m1
+  rotate: false
+  xy: 1, 1
+  size: 403, 694
+  orig: 403, 694
+  offset: 0, 0
+  index: -1
+bg-intro-m2
+  rotate: false
+  xy: 638, 66
+  size: 205, 629
+  orig: 205, 629
+  offset: 0, 0
+  index: -1
+bg-intro-m3
+  rotate: false
+  xy: 406, 48
+  size: 230, 647
+  orig: 230, 647
+  offset: 0, 0
+  index: -1
+gradiean
+  rotate: false
+  xy: 1923, 1713
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+intro-dust
+  rotate: false
+  xy: 845, 407
+  size: 512, 288
+  orig: 512, 288
+  offset: 0, 0
+  index: -1

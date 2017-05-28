@@ -1,1 +1,378 @@
-Hello World!
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Anthill Platform</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/font-mfizz/font-mfizz.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body data-spy="scroll">
+
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <img src="assets/images/icon-anthill.png" class="hidden-sm" width="48" height="48"
+                     style="margin-top: -4px; margin-right: 8px;">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">Anthill Platform</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#key-features">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#get-started">Get Started</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#license">License</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div align="center" class="animation-bg-container">
+            <div class="animation-bg">
+                <div id="promo-bg"></div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <h2 class="title">Anthill Platform</h2>
+            <p class="intro">An open source back-end platform for games<br>that solves the <b>online</b> problem</p>
+            <div class="btns">
+                <!--
+                <a class="btn btn-cta-secondary" href="#" target="_blank">Demo</a>
+                -->
+            </div>
+
+            <ul class="meta list-inline">
+
+                <li><a href="https://github.com/anthill-platform/anthill" target="_blank">View on GitHub</a></li>
+            </ul><!--//meta-->
+        </div><!--//container-->
+        <div class="social-media">
+            <div class="social-media-inner container text-center">
+                <ul class="list-inline">
+                    <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=anthill-platform&repo=anthill&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
+                    <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=anthill-platform&repo=anthill&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                </ul>
+            </div>
+        </div>
+    </section><!--//promo-->
+
+    <section id="key-features" class="gray-section section">
+        <div class="container">
+
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-server"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Self Hosted</h3>
+                        <p>You have full control over the system. That makes it cheaper to maintain and a lot easier to modify.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-github"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Open Source</h3>
+                        <p>Under <a href="https://github.com/anthill-platform/anthill/blob/master/LICENSE.txt">MIT License</a>, actively maintained, with no black box stuff inside.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-expand"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Scalable</h3>
+                        <p>Each service is easily scalable since the whole system works like an anthill itself: add more workers into it and they will do the job.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="clearfix visible-md"></div>
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Easy to customise</h3>
+                        <p>It can hold any type of game, because it's designed to be as much abstract as possible. The way it acts is completely up to the game.</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-cubes"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Unified</h3>
+                        <p>Each service follows standards so its behaviour is predictable. Implement few interfaces and your new service is ready to be plugged in!</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-holder">
+                        <i class="fa fa-puzzle-piece"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">A Platform</h3>
+                        <p>Not just a complete solution, it's a platform. If there is no service that meets your exact requirements, you can easily create a new one!</p>
+                    </div><!--//content-->
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//about-->
+
+    <!-- ******DOCS****** -->
+    <section id="runtimes" class="dark-section section">
+        <h2 class="title text-center">It comes with Runtimes</h2>
+        <div class="container">
+            <div class="docs-inner">
+                <p align="center">
+                    Runtimes with bring online to your game "out of the box".
+                </p>
+                <div class="row">
+                    <div class="item col-md-4 col-sm-4 col-xs-12" align="center">
+                        <h3><i class="icon-unity"></i> Unity</h3>
+                        <p>
+                            <a class="btn btn-cta-primary"
+                               href="https://github.com/anthill-platform/anthill-runtime-unity"
+                               target="_blank">Download</a>
+                        </p>
+                    </div>
+                    <div class="item col-md-4 col-sm-4 col-xs-12" align="center">
+                        <h3><i class="icon-java"></i> Java</h3>
+                        <p>
+                            <a class="btn btn-cta-primary"
+                               href="https://github.com/anthill-platform/anthill-runtime-java"
+                               target="_blank">Download</a>
+                        </p>
+                    </div>
+                    <div class="item col-md-4 col-sm-4 col-xs-12" align="center">
+                        <h3>C++</h3>
+                        <p>
+                            <a class="btn btn-cta-primary"
+                               href="https://github.com/anthill-platform/anthill-runtime-cpp"
+                               target="_blank">Download</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ******ABOUT****** --> 
+    <section id="about" class="gray-section section">
+        <div class="container">
+            <h2 class="title text-center">But what online problem exactly?</h2>
+            <div class="row">
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-key"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Authorization</h3>
+                        <p>Facebook, Google+, Game Center, Steam or even Anonymous.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Player Profiles</h3>
+                        <p>They will need to store their progress somewhere, reliably.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-cloud-download"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">DLC</h3>
+                        <p>Delivers content to the players using external CDN.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">In-App Purchases.</h3>
+                        <p>Monetization for your game with platforms as Steam or XSolla</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Events</h3>
+                        <p>Schedules Time-Limited events the players can participate in.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Messaging</h3>
+                        <p>Delivers absolutely custom message objects from sender to recepient.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Configuration</h3>
+                        <p>Tweak the game dynamically with no new builds shipped.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Multiplayer Games</h3>
+                        <p>Deploy, launch and maintain your game servers across multiple regions.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Server Javascript</h3>
+                        <p>Allows to deploy server-side scripts, with easy API for calling them from the game.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-sort-numeric-asc"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Leaderboards</h3>
+                        <p>Motivite players by competing with each other around anything you may ever want.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-toggle-on"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Sandboxing</h3>
+                        <p>You can have a set of different environments that never interact each other.</p>
+                    </div>
+                </div>
+                <div class="item col-md-3 col-sm-4 col-xs-6">
+                    <div class="icon-holder">
+                        <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="content">
+                        <h3 class="sub-title">Administration</h3>
+                        <p>And you can manage all this in user-friendly admin tool.</p>
+                    </div>
+                </div>
+            </div>       
+        </div><!--//container-->
+    </section><!--//about-->
+
+    <!-- ******DOCS****** --> 
+    <section id="get-started" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+            <h2 class="title text-center">Get Started</h2>            
+            <div class="block">
+                <h3 class="sub-title text-center">Installation</h3>
+
+                <p>
+                    Please read <b><a href="https://github.com/anthill-platform/anthill/wiki/Installation">
+                    this article</a></b> about how to install the Anthill Platform onto your server.
+                </p>
+            
+            </div><!--//docs-inner-->         
+        </div><!--//container-->
+    </section><!--//features-->
+    
+    <!-- ******LICENSE****** --> 
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+            <h2 class="title text-center">License</h2>
+                <div class="info" align="center">
+                    <p>
+                        Every component of Anthill Platform is licensed under permissive
+                        <b><a href="https://github.com/anthill-platform/anthill/blob/master/LICENSE.txt">MIT License</a></b>
+                        (or compatible), meaning you are free to use this for commercial purposes.
+                    </p>
+                </div><!--//info-->
+            </div><!--//license-inner-->
+        </div><!--//container-->
+    </section><!--//how-->
+    
+
+    <!-- ******FEATURES****** -->
+    <section id="facts" class="facts section">
+        <div class="container text-center">
+            <h2 class="title">Facts</h2>
+            <ul class="feature-list list-unstyled">
+                <li><i class="mfizz icon-debian"></i> Runs perfectly on Debian 8</li>
+                <li><i class="mfizz icon-python"></i> Written with python 2.7</li>
+                <li><i class="fa fa-check"></i> Basen on <a href="http://www.tornadoweb.org/en/stable/" target="_blank">Tornado</a> framework</li>
+                <li><i class="fa fa-check"></i> Secure with serious efforts on it</li>
+                <li><i class="fa fa-check"></i> Managed by Puppet</li>
+                <li><i class="fa fa-check"></i> 35’000 lines of async code</li>
+            </ul>
+        </div><!--//container-->
+    </section><!--//features-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">See a <a href="https://github.com/anthill-platform/anthill">GitHub repository</a> for more information.</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>   
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/spine-widget.js"></script>
+</body>
+</html> 
+
